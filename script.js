@@ -1,18 +1,27 @@
 "use strict";
 
-const typeGoods = 'food';
+let number = 10;
 
-//console.log('https://market.com/'+ typeGoods);
+function showMessage(text) {
+    console.log(text)
+    //let number = 20;
+    console.log(number);
+}
 
-//console.log('https://market.com/'+ typeGoods + '/'+ '10');
+showMessage("hello!!!");
+console.log(number);
 
-console.log(`https://market.com/${typeGoods}`);
+const server = function(){
+    console.log('server start...');
+};
 
+server();
 
-const games = 'game';
+const calc = (x, y) => x+y;
+// const calc = (x, y) => {
+//  return x+y
+// };
 
-const type = 'type';
+//const calc = x => x+10;
 
-console.log(`https://market.com/${games}`);
-
-//
+console.log(calc(10,5));
